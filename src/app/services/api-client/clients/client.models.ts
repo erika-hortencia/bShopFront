@@ -23,6 +23,7 @@ export interface UpdateClientResponse{
 }
 
 export interface ListClientResponse{
+    id: number
     name: string
     email: string
     phone: string
